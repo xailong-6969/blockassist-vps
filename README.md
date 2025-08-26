@@ -1,4 +1,3 @@
-# blockassist-setup.sh
 # 🚀 BlockAssist on Kasm — Setup Guide
 
 Welcome to the **BlockAssist** setup guide! This walkthrough installs Kasm (optional), sets up Java + Python, and runs BlockAssist on the Kasm web desktop.
@@ -23,7 +22,7 @@ Welcome to the **BlockAssist** setup guide! This walkthrough installs Kasm (opti
 git clone https://github.com/xailong-6969/blockassist-vps
 ```
 ```bash
-cd kasm-install.sh
+cd blockassist-vps
 bash kasm-install.sh
 ```
 - After installing kasm workspace, open in your browser:
