@@ -1,4 +1,4 @@
-# blockassist-vps-guide
+# blockassist-setup.sh
 # 🚀 BlockAssist on Kasm — Setup Guide
 
 Welcome to the **BlockAssist** setup guide! This walkthrough installs Kasm (optional), sets up Java + Python, and runs BlockAssist on the Kasm web desktop.
@@ -20,10 +20,13 @@ Welcome to the **BlockAssist** setup guide! This walkthrough installs Kasm (opti
 ### 📦 1.Install Kasm
 
 ```bash
-chmod +x kasm-install.sh
-sudo ./kasm-install.sh
+git clone https://github.com/xailong-6969/blockassist-vps
 ```
-- After install, open in your browser:
+```bash
+cd blockassist-setup.sh
+bash kasm-install.sh
+```
+- After installing kasm workspace, open in your browser:
 
 - https://(your-vm-public-ip)(if routed)
 - open the public ip on your local browser
@@ -45,7 +48,7 @@ sudo ./kasm-install.sh
 - ✅Choose container then ubuntu jammy desktop
 <img width="1642" height="901" alt="image" src="https://github.com/user-attachments/assets/14f5d20d-c237-4834-91d5-a92e4c976c54" />
 
-- Mention the cores and dont need to chnage the memory and gpu count
+- Mention the cores and dont need to change the memory and gpu count
 <img width="1533" height="801" alt="image" src="https://github.com/user-attachments/assets/f9ce457e-2ce2-4b01-afcc-53cc979672ec" />
 
 - ✅ To give the workspace full root access, find the **Docker Run Config Override (JSON)** field and paste this configuration:
@@ -56,6 +59,26 @@ sudo ./kasm-install.sh
   "user": "root"
 }
 ```
+- after performing all these steps open the ubuntu jammy desktop or if you selected ubuntu noble its fine too 
+<img width="1919" height="896" alt="image" src="https://github.com/user-attachments/assets/dfb60ab5-1757-477f-9110-b7ed8a1ec145" />
+
+- Now open terminal and use this command to it full root access
+```
+sudo su -
+```
+- Then clone the repository again and perform the following steps
+```
+git clone https://github.com/xailong-6969/blockassist-vps
+```
+```
+cd blockassist-setup.sh
+```
+```
+bash blockassist-setup.sh
+```
+
+
+
 
 
 
