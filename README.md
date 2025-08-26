@@ -23,7 +23,7 @@ Welcome to the **BlockAssist** setup guide! This walkthrough installs Kasm (opti
 git clone https://github.com/xailong-6969/blockassist-vps
 ```
 ```bash
-cd blockassist-setup.sh
+cd kasm-install.sh
 bash kasm-install.sh
 ```
 - After installing kasm workspace, open in your browser:
