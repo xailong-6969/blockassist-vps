@@ -61,6 +61,9 @@ bash kasm-install.sh
 - after performing all these steps open the ubuntu jammy desktop or if you selected ubuntu noble its fine too 
 <img width="1919" height="896" alt="image" src="https://github.com/user-attachments/assets/dfb60ab5-1757-477f-9110-b7ed8a1ec145" />
 
+- it will take sometime to install the workspace after installation move to workspaces section click on it
+<img width="1919" height="894" alt="image" src="https://github.com/user-attachments/assets/583b6aa1-1406-4ad4-92cc-4f4df5ae3692" />
+
 - Now open terminal and use this command to it full root access
 ```
 sudo su -
