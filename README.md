@@ -17,7 +17,7 @@ Welcome to the **BlockAssist** setup guide! This walkthrough installs Kasm (opti
 
 ## ⚙️ Setup Steps
 
-### 📦 1.Install Kasm
+### 📦 1.Install Kasm on your vps
 
 ```bash
 git clone https://github.com/xailong-6969/blockassist-vps
