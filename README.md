@@ -48,8 +48,15 @@ sudo ./kasm-install.sh
 - Mention the cores and dont need to chnage the memory and gpu count
 <img width="1533" height="801" alt="image" src="https://github.com/user-attachments/assets/f9ce457e-2ce2-4b01-afcc-53cc979672ec" />
 
-- Give the workspace full root access find ``Docker Run Config Override (JSON)``
-  then paste this
+- ✅ To give the workspace full root access, find the **Docker Run Config Override (JSON)** field and paste this configuration:
+
+```json
+{
+  "hostname": "kasm",
+  "user": "root"
+}
+```
+
 
 
 
